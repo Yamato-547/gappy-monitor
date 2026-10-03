@@ -20,7 +20,9 @@
 }
 
 *{ box-sizing:border-box; }
+html{ -webkit-text-size-adjust:100%; text-size-adjust:100%; }
 body{
+  margin:0;
   background:var(--ink);
   color:var(--paper);
   font-family:'Inter', system-ui, -apple-system, sans-serif;
